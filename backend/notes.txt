@@ -1,0 +1,43 @@
+/**
+ * Route/Resource
+ */
+
+/**
+ * HTTP Methods:
+ * 
+ * GET: Search/list an info on backend
+ * POST: Create an info on backend
+ * PUT: Update an info on backend
+ * DELETE: Delete an info on backend
+ */
+
+/**
+ * Parameter types:
+ * 
+ * Query Params: Named params sent on route after "?" (filter, pagination)
+ * Route Params: Params used to identify resources
+ * Request Body: Request body, used to create or change resources
+ */
+
+/**
+ * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+ * NoSQL: MongoDB, CouchDB, etc
+ */
+
+/**
+ * Driver: SELECT * FROM users
+ * Query Builder: table('users').select('*').where()
+ */
+
+Entities
+  ONG
+  Incident (caso)
+Functionalities
+  ONG login
+  ONG logout
+  ONG creation
+  Incident creation
+  Incident deletion
+  ONG specific Incident listing
+  Incident listing
+  ONG contacting
